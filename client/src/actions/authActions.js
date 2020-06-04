@@ -6,6 +6,9 @@ import {
   SET_CURRENT_USER,
   USER_LOADING
 } from "./types";
+
+// axios.defaults.baseURL = 'http://localhost:5000';
+
 // Register User
 export const registerUser = (userData, history) => dispatch => {
   axios
